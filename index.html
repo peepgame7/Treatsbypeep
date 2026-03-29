@@ -1,36 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Treats by Peep</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TreatsByPeep</title>
+<style>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #faf7f2;
+  color: #11;
+}
+header {
+  background-color: #3e2723;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+nav ul li a:hover {
+  background-color: #6d4c41;
+}
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.menu-item img {
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.button {
+  background-color: #8d6e63;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.button:hover {
+  background-color: #5d4037;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3e2723;
+  color: white;
+}
+</style>
 </head>
 <body>
 
 <header>
-  <h1>Treats by Peep</h1>
-  <p class="tagline">Cozy • Handmade • Indulgent</p>
+  <h1>TreatsByPeep</h1>
   <nav>
-    <a href="index.html">Home</a>
-    <a href="menu.html">Menu</a>
-    <a href="order.html">Order</a>
+    <ul>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#order">Order</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </nav>
 </header>
 
-<section class="hero">
-  <h2>Welcome to your favorite cozy bakery ✨</h2>
-  <p>Handmade treats baked with love and care to brighten your day.</p>
-  <a href="menu.html" class="btn">View Our Menu</a>
+<section id="about">
+  <h2>About Us</h2>
+  <p style="text-align:center; max-width:700px; margin:auto;">
+    At TreatsByPeep, we believe that great desserts start with exceptional ingredients. Every item we make is crafted in-house from scratch using only the freshest, highest-quality ingredients available. From rich chocolates to perfectly balanced flavors, we put care and passion into every bite to bring you desserts that feel homemade, comforting, and truly special.
+  </p>
 </section>
 
-<section class="about">
-  <h2>About Us</h2>
-  <p>Welcome to Treats by Peep — a cozy bakery bringing you fresh, homemade sweets made with love. From soft cookies to custom cakes, every treat is baked to brighten your day.</p>
+<section id="menu">
+  <h2>Menu</h2>
+
+  <div class="menu-item">
+    <img src="https://source.unsplash.com/300x200/?flourless-chocolate-cake" alt="Flourless Chocolate Cake">
+    <h3>Flourless Chocolate Cake</h3>
+    <p>Whole Cake: $50 | Slice: $7</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://source.unsplash.com/300x200/?carrot-cake" alt="Pecan Carrot Cake">
+    <h3>Pecan Carrot Cake with Brown Butter Cream Cheese</h3>
+    <p>Whole Cake: $60 | Slice: $10</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://source.unsplash.com/300x200/?cookies" alt="New York Style Cookies">
+    <h3>New York Style Cookies</h3>
+    <p>$30 per dozen</p>
+  </div>
+
+  <div class="menu-item">
+    <img src="https://source.unsplash.com/300x200/?brownies" alt="Brownies">
+    <h3>Brownies</h3>
+    <p>$20 per tray (9 small or 4 large)</p>
+  </div>
+
+</section>
+
+<section id="order">
+  <h2>Order</h2>
+  <p style="text-align:center;">Click below to place your order via email.</p>
+  <div style="text-align:center;">
+    <a href="mailto:peepstreats.co@gmail.com">
+      <button class="button">Order Now</button>
+    </a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p style="text-align:center;">Email: peepstreats.co@gmail.com</p>
 </section>
 
 <footer>
-  <p>© 2026 Treats by Peep • Made with love 🤍</p>
+  <p>© 2026 TreatsByPeep</p>
 </footer>
 
 </body>
