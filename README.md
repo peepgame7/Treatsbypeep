@@ -24,53 +24,23 @@ Whether you're craving something sweet or planning an event, we’ve got you cov
 * Brownies & Bars
 * Seasonal Specials
 
----
+--
 
-## 🌐 Website
-
-This repository contains the source code for our website, hosted using GitHub Pages.
-
-👉 (Add your live site link here once published)
-Example: https://yourusername.github.io/treatsbypeep/
+👉  https://peepgame7.github.io/Treatsbypeep/
 
 ---
 
-## 📸 Features
-
-* Simple, clean bakery website
-* Menu display
-* Contact / order information
-* Mobile-friendly design (coming soon)
-
----
-
-## 🚀 Getting Started (for developers)
-
-To run locally:
-
-```bash
-git clone https://github.com/yourusername/treatsbypeep.git
-cd treatsbypeep
-open index.html
-```
-
----
 
 ## 📬 Contact
 
 Want to place an order or collaborate?
 
-* Instagram: (add your handle)
-* Email: (add your email)
+* Instagram: @treatsbypeep
+@p33pgame
+* Email: peepstreats.co@gmail.com
 
 ---
 
 ## 💕 Support
 
 If you like our treats or website, feel free to ⭐️ the repo and share with friends!
-
----
-
-## 📄 License
-
-This project is open source and available under the MIT License.
